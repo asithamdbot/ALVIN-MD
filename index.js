@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94763711930']
+const ownerNumber = ['94760264995']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -75,9 +75,9 @@ let up = `🚀 *_THARU-MD Connected Successfully!_* ✅
 
 *🔹 PREFIX:* .
 
-*🔹 OWNER:* 94763711930
+*🔹 OWNER:* 94760264995
 
-*🔹 MADE BY:* Tharusha
+*🔹 MADE BY:* suranga 
 
 _Thank you for using_ *🕺THARU-MD💗.*
 _We're here to make your experience enjoyable and seamless._
@@ -160,19 +160,19 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94763711930")){
+if(senderNumber.includes("94760264995")){
 if(isReact) return
 m.react("👨🏻‍💻")
 }
-if(senderNumber.includes("94740671704")){
+if(senderNumber.includes("94760264995")){
 if(isReact) return
 m.react("👨🏼‍💻")
 }
-if(senderNumber.includes("94722843204")){
+if(senderNumber.includes("94760264995")){
 if(isReact) return
 m.react("👩🏽‍💻")
 }
-if(senderNumber.includes("94768844616")){
+if(senderNumber.includes("94760264995")){
 if(isReact) return
 m.react("👾")
 }
